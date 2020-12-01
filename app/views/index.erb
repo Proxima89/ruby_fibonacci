@@ -1,9 +1,10 @@
-<html>
-<head>
-</head>
-<body>
-<h1> This is Shotgun </h1>
+Date and time: <%= @time_of_day %>
+<br>
+<h1> Fibonacci Multiplication Table </h1>
+<p> Enter your number below: </p>
 
-<p> Test </p>
-</body>
-</html>
+    <form method="POST" action="/fibonacci/inspect">
+        <label for="fibonacci_sequence">
+        <input type="integer" name="sequence" placeholder="Insert your number">
+        <input type="submit">
+    </form>
