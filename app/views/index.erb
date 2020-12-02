@@ -1,10 +1,13 @@
-Date and time: <%= @time_of_day %>
-<br>
-<h1> Fibonacci Multiplication Table </h1>
-<p> Enter your number below: </p>
+<div class="container" style="align-items: center; ">
+    Date and time: <%= @time_of_day %>
+    <br>
+    <h1> Fibonacci Multiplication Table </h1>
+    <p> Enter your number below: </p>
 
-    <form method="POST" action="/fibonacci/inspect">
-        <label for="fibonacci_sequence">
-        <input type="integer" name="sequence" placeholder="Insert your number">
-        <input type="submit">
-    </form>
+        <form method="POST" action="/fibonacci/inspect">
+            <label for="fibonacci_sequence">
+            <input type="integer" name="sequence" placeholder="Insert your number">
+            <input type="submit">
+        </form>
+       
+</div>
