@@ -1,11 +1,7 @@
 <div class="container">
-<h1> Fibonacci sequence has been extracted: </h1>
-
+<h1> Fibonacci sequence: </h1>
     <div class="sub-container">
-        <p> This is the result: </p>  
-        <h2> <%= @fibonacci.sequence %> </h2>
-    </div>
-   
-   <h3> <%=puts fib(1000) %> </h3>
-
+        <p> Generated fibonacci sequence: </p> 
+        <%= @sequence.join(', ') %>
+    </div>  
 </div>
