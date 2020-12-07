@@ -1,7 +1,5 @@
-<div class="container">
-<h1> Fibonacci sequence: </h1>
-    <div class="sub-container">
-        <p> Generated fibonacci sequence: </p> 
-        <%= @sequence.join(', ') %>
-    </div>  
-</div>
+<p> Generated fibonacci sequence: </p> 
+<% @table.each do |table_row| %>
+  <%= table_row.join(',') %>
+  <br/>
+<% end %>
